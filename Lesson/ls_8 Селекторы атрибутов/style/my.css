@@ -1,0 +1,14 @@
+img[title="Картинка 2"] {
+  width: 100px;
+}
+img[title="Картинка 3"] {
+  width: 200px;
+}
+a[href="https://www.mozilla.org"]
+{
+  color: red;
+}
+a[href="https://nnm.com"]
+{
+  color: black;
+}

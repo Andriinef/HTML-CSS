@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Работа с таблицами</title>
+    <link href="css/minimal-table.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Строим таблицу</h1>
+      <table>
+        <colgroup>
+          <col>  <!--Первая колонка-->
+          <col style="background: blue">
+          <col style="background: rgb(255, 0, 0)"> <!--Третья колонка-->
+        </colgroup>
+        <tr style="background: yellow;">
+          <th>Первая ячейка</th> <!--th выделение текста в ячейке -->
+           <th>Вторая ячейка</th>
+           <th style="background: rgb(0, 255, 0);">Третья ячейка</th>
+        </tr>
+
+        <tr>
+          <td colspan="2">Первая ячейка</td> <!-- Атрибут задает количество присоединенных справа ячеек -->
+           <!-- <td>Вторая ячейка</td> -->
+           <td rowspan="2">Третья ячейка</td> <!-- Атрибут задает количество присоединенных ячеек внизу-->
+        </tr>
+          <td style="color: rgb(255, 0, 0);">Первая ячейка</td>
+           <td>Вторая ячейка</td>
+           <!-- <td>Третья ячейка</td> -->
+        </tr>
+         </tr>
+          <td style="background: #000; color:#fff;">Первая ячейка</td>
+           <td>Вторая ячейка</td>
+           <td>Третья ячейка</td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+          <th>Имя</th>
+          <th>Возраст</th>
+          <th>Суперспособность</th>
+        </tr>
+        <tr>
+          <td>Логан</td>
+          <td>186</td>
+          <td>Повышенная способность к регенерации</td>
+        </tr>
+        <tr>
+          <td>Профессор икс</td>
+          <td>94</td>
+          <td>Чтение мыслей, вызов иллюзий, временного паралича, способность останавливать время</td>
+        </tr>
+      </table>
+      <br>
+      <table border="1">
+        <caption>Сотрудники отдела поддержки</caption>
+        <thead>
+          <tr>
+            <th>Имя</th>
+            <th>Должность</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Петя</td>
+            <td>Менеджер</td>
+          </tr>
+          <tr>
+            <td>Маша</td>
+            <td>Разработчик</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Вася</td>
+            <td>Девопс</td>
+          </tr>
+        </tfoot>
+      </table>
+  </body>
+</html>

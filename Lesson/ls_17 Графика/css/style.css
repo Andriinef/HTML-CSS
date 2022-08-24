@@ -1,0 +1,10 @@
+body {
+  padding: 60px;
+  background: url(../images/fon_black.jpg) center center / 100% no-repeat, url(../images/fon_blue.webp);
+  /* background-image: url(../images/fon_black.jpg); GIF, JPG, PNG, SVG */
+  /* background-position:center; */
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+  /* background-origin: padding-box; */
+  /* background-size: 100% auto; */
+}

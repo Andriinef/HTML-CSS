@@ -1,0 +1,36 @@
+body {
+  padding: 20px;
+}
+p {
+	text-indent: 50px;
+	text-align: justify;
+	letter-spacing: 2px;
+  }
+
+p.test {
+  border: 2px double #f53;
+}
+p.test2 {
+  border: 1px solid #693;
+  background: red;
+  border-radius: 0px 10px 20px 30px;
+  padding: 15px;
+  width: 90%;
+  min-height: 100px;
+
+  overflow: auto;
+}
+li {
+  display: inline;
+}
+p {
+  box-shadow: 4px 4px 11px rgba(0, 0, 0, 0.7); /*горизонт вертикаль размытие */
+}
+h2 {
+  width: 300px;
+  padding: 15px;
+  border-width: 5px;
+  margin: 10px;
+  border: 1px solid #888;
+  box-sizing: border-box;
+}

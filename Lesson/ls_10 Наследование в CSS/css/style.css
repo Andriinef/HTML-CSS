@@ -1,0 +1,34 @@
+body{
+	background: #ffffff;
+	color: red;
+	font-family: Calibri, sans-serif;
+}
+article{
+	max-width: 1000px;
+	margin: 0 auto;
+	background: rgb(0, 225, 255);
+}
+.test{
+	background: white;
+}
+p span{
+	background: rgb(0, 0, 0);
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  h1,
+  h2,
+  h3 {
+	color: rgb(255, 255, 0);
+	font-family: Arial, "Palatino Linotype", serif;
+	border-bottom: 2px solid #ff3412;
+	padding-top: 12px;
+	padding-bottom: 4px;
+	text-align: center;
+  }
+  h1 {
+	font-size: 2em;
+  }
