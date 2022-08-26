@@ -1,0 +1,26 @@
+body {
+  padding: 60px;
+}
+p.test1 {
+  width: 500px;
+  border: 1px solid #003;
+  padding: 3px;
+  transform: scale(1);
+}
+
+a.button {
+  padding: 5px;
+  color: black;
+  background-color: #0489fd;
+  border: 5px solid #fcdf00;
+  transition-property: color, background-color, border-color;
+  transition-duration: 1s, 1s, 2s;
+  transition-delay: 0, 0, 1s;
+  display: inline-block;
+}
+a.button:hover {
+  color: red;
+  background-color: #fcdf00;
+  border-color: #0489fd;
+  transform: scale(1.5);
+}

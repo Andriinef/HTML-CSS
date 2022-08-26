@@ -1,0 +1,60 @@
+body {
+  width: 960px;
+  margin: auto;
+  margin-top: 100px;
+  background: url(../images/fon_blue.webp);
+  color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, sans-serif;
+}
+h1 {
+  font-size: 2em;
+  border-bottom: dotted 2px rgb(255, 0, 0);
+  padding-bottom: 5px;
+  text-shadow: -3px 5px 2px #999;
+  text-align: center;
+}
+p {
+  margin-bottom: 20px;
+  font-weight: bold
+}
+.subform {
+  font-size: 1.1em;
+  color: rgb(0, 0, 0);
+}
+.subform label {
+  display: inline-block;
+  width: 230px;
+  vertical-align: top;
+  text-align: left;
+  margin-right: 10px;
+}
+.subform input[type="submit"] {
+  margin-left: 246px;
+  padding: 12px 24px;
+  font-size: 1em;
+  background: rgb(0, 106, 160);
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 0 3px #fff;
+  color: #fff;
+}
+.subform input[type="checkbox"] {
+  margin-left: 90px;
+}
+.subform input[type="text"],
+.subform input[type="email"],
+.subform textarea {
+  border-radius: 4px;
+  border: none;
+  background: #fff;
+  color: red;
+  box-shadow: 0 0 3px #fff;
+  padding: 7px;
+  width: 550px;
+}
+.subform input[type="text"]:focus,
+.subform input[type="email"]:focus,
+.subform textarea:focus {
+  background: rgb(0, 106, 160);
+  color: #000;
+}
