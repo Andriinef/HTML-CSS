@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!-- Ширина при статичній верстці визначається з розрахунку того,
+        що за статистичними даними більшість користувачів використовують монітори з роздільною здатністю 1024х768 пікселів.
+        Отже, для того, щоб уникнути появи горизонтальної смуги прокручування та спотворення дизайну,
+        Необхідно в середньому брати ширину прототипу приблизно 800-990 пікселів. Недолік за такого методу верстки – це неефективне використання вільної площі.
+    -->
+    <div style=" width:1000px; height:950px; border:1px solid black; margin:0px auto">
+        <div style="width:1000px; height:150px; background-color:Blue">
+        </div>
+        <div style=" width:1000px; height:750px;">
+            <div style="width:250px; height:750px; background-color:Navy; float:left"></div>
+            <div style="width:550px; height:750px; float:left"></div>
+        </div>
+        <div style="width:1000px; height:50px; background-color: Yellow"></div>
+    </div>
+</body>
+</html>

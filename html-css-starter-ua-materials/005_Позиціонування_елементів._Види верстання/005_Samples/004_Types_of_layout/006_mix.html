@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .wrapper {
+        min-height: 1200px;
+        margin: 0 auto;
+      }
+      .header {
+        height: 100px;
+        background-color: aqua;
+      }
+      .content {
+        width: 500px;
+        background-color: lightgreen;
+      }
+      .left_side {
+        height: 500px;
+        background-color: Gray;
+        float: left;
+      }
+      .right_side {
+        height: 500px;
+        background-color: darkcyan;
+        float: right;
+      }
+      .footer {
+        height: 80px;
+        background-color: Yellow;
+      }
+      @media (max-width: 1200px) {
+        .content {
+          width: 100%;
+        }
+        .left_side {
+          height: 100px;
+          background-color: Gray;
+          float: none;
+        }
+        .right_side {
+          height: 200px;
+          background-color: red;
+          float: none;
+        }
+      }
+      @media (max-width: 1000px) {
+        .header {
+          background: pink;
+        }
+      }
+      @media (max-width: 600px) {
+        .header {
+          background: aqua;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!--Відсоткова верстка виходить за рахунок того,
+        що одиницями вимірювання при верстці дизайну здебільшого виступають відсотки,
+        що дає змогу розтягнути макет на всю ширину вікна браузера. Відсоткова верстка найкраща.
+    -->
+    <div class="wrapper">
+      <div class="header">Шапка сайта</div>
+      <div class="content">
+        <div class="left_side">left_side</div>
+        <div class="rght_side">reght_side</div>
+      </div>
+      <div class="footer">footer</div>
+    </div>
+  </body>
+</html>

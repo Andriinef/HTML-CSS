@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        p {
+            font-size: 45px;
+        }
+        .one {            
+            /*
+                Властивість text-shadow дозволяє встановити тінь для тексту. Має такі параметри:
+                text-shadow: <зсув по х> <зсув по у> <розмиття> <колір>
+            */
+            text-shadow: 3px 3px 0 blue;
+        }
+        .two{
+            /* допускається вказувати кілька тіней через кому. */
+            text-shadow: 1px 1px 5px blue, 5px 5px 15px darkorange;
+        }
+    </style>
+</head>
+<body>
+    <p class="one">Hello</p>
+    <p class="two">Twice shadow</p>
+</body>
+</html>

@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        .one {
+            /*
+                Властивість vertical-align визначає вертикальне вирівнювання.
+                Має такі значення:
+                    - baseline – вирівнювання по базовій лінії батьківського елемента. Якщо її немає, то базову лінію приймається нижня межа елемента.
+                    - bottom - вирівнює нижню частину елемента.
+                    - middle – вирівнювання середньої точки елемента по базовій лінії батька.
+                    - sub – відображається як підствольний.
+                    - super – елемент відображається у вигляді верхнього індексу.
+                    - text-bottom – нижня межа елемента вирівнюється по нижньому краю поточного рядка.
+                    - text-top - верхня межа елемента вирівнюється за найвищим текстовим елементом.
+                    - top – вирівнювання верхнього краю елемента по верху найвищого елемента рядка.
+            */
+            vertical-align: bottom;
+        }
+
+        .two {
+            vertical-align: sub;
+        }
+
+        .three {
+            vertical-align: super;
+        }
+
+        .four {
+            vertical-align: text-top;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <span class="one">H</span>
+        <span>e</span>
+        <span class="two">l</span>
+        <span class="three">l</span>
+        <span class="four">o</span>
+    </p>
+</body>
+</html>
